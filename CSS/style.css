@@ -7,11 +7,31 @@
 body {
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+header {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+}
+
+header .container {
+    gap: 7px;
+}
+
+header .container>* {
+    display: inline-block;
+    padding: 6px 4px;
+    background-color: #4a4a4a;
+    border-radius: 5px;
 }
 
 main {
     background-color: black;
-    height: 100vh;
+    height: calc(100vh - 150px);
     padding: 30px 70px;
     display: flex;
     flex-wrap: wrap;
@@ -39,4 +59,9 @@ img {
     left: 0;
     background-color: rgba(211, 211, 211, 0.5);
     padding: 10px 5px;
+}
+
+footer {
+    background-color: #222222;
+    height: 80px;
 }
