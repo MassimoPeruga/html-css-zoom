@@ -64,4 +64,57 @@ img {
 footer {
     background-color: #222222;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .sezione {
+    align-items: center;
+}
+
+.audio {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 20px;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+
+.tools {
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+#colorato {
+    color: #4bc800;
+}
+
+
+.sezione.button {
+    width: 200px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+button {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 30px 20px;
+    background-color: #4a4a4a;
+    height: 100%;
 }
