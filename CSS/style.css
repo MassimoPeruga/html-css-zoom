@@ -6,6 +6,7 @@
 
 body {
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -16,12 +17,15 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     gap: 7px;
+    overflow-y: scroll;
 }
 
 .box {
     width: 250px;
     height: 150px;
     position: relative;
+    margin-top: 11px;
+    font-size: smaller;
 }
 
 img {
@@ -34,5 +38,5 @@ img {
     bottom: 0;
     left: 0;
     background-color: rgba(211, 211, 211, 0.5);
-    padding: 10px 20px;
+    padding: 10px 5px;
 }
